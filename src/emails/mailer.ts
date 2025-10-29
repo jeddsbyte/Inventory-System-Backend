@@ -21,7 +21,7 @@ export const sendNotificationEmail = async (
 ) => {
   try {
     const mailOptions = {
-      from: `"THERANOS | Compassionate Care for You" <${process.env.EMAIL_SENDER}>`,
+      from: `"SMART INVENTORY SYSTEM | MANAGE YOUR STOCK AND GET  INSTANT FEEDBACKS" <${process.env.EMAIL_SENDER}>`,
       to: email,
       subject: subject,
       html: `
